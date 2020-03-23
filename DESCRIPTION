@@ -1,12 +1,14 @@
 Package: cmdreg
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Managing regression environment
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: person("Hirotake", "Ito", role = c("aut", "cre"), email = "hohoge@gmail.com")
+Description: TBA.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
+Suggests: 
+    testthat (>= 2.1.0)
+Imports:
+  magrittr
